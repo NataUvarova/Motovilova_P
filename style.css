@@ -41,7 +41,7 @@ nav a {
     font-size: 18px;
 }
  nav a:hover{
-    color: red;
+    color: #ecc02e;
     font-size: 22px;
 }
 
@@ -67,7 +67,10 @@ nav a {
 .about img {
     width: 300px;
 }
-
+.about img:hover{
+    transform: scale(1.2);
+    transition:1s linear;
+}
 /* Каталог */
 .catalog {
     background: #fff;
@@ -95,11 +98,23 @@ nav a {
     width: 100%;
     border-radius: 5px;
 }
-
+.product img:hover{
+    transform: scale(1.2);
+    transition: 1s linear;
+}
 .product p {
     margin: 5px 0;
 }
-
+.product a{
+    text-decoration: none;
+    color:#d94a4a;
+}
+.product a:hover{
+    
+    font-size:20px;
+    transition: 1s linear;
+    
+}
 /* Відгуки */
 .reviews {
     background: #fff;
