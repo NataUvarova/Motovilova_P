@@ -31,7 +31,8 @@ site-title {
 nav {
     flex: 1;
     text-align: center;
-    justify-content:space-around;
+    justify-content:space-between;
+    width:50%;
 }
 
 nav a {
