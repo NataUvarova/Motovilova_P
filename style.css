@@ -197,16 +197,17 @@ footer {
     background-image: linear-gradient(#FFB291,#996B57);
 }
 .text{
-    background-color: #cb333b;
+    background-color: white;
     width: 100px;
     padding: 15px;
     border-radius: 15px;
-    border:1px solid white;
-    color:white;
+    border:1px solid #cb333b;
+    color:#cb333b;
 }
 .text:hover{
     box-shadow: 3px 3px 3px 0 gold;
     color:gold;
+    background-color:#cb333b;
 }
 
 
