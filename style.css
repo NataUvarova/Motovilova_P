@@ -210,6 +210,16 @@ footer {
     background-color:#cb333b;
     transition:3s linear;
 }
-
+.tel{
+    font-size:22px;
+    
+    
+}
+.tel:hover{
+    transform:scale(1.2);
+    transition:1s linear;
+    color:#cb333b;
+    text-shadow:2px 2px 0 0 gold;
+}
 
 
