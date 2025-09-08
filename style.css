@@ -2,13 +2,13 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Vardana, sans-serif;
     background: #d9c7c7;
 }
 
 /* Шапка */
 header {
-    background: #d94a4a;
+    background: #cb333b;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -23,7 +23,7 @@ header img {
 }
 
 site-title {
-    text-align: center;
+    text-align:center;
     font-size: 60px;
 
 }
@@ -37,19 +37,25 @@ nav a {
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: initial;
+    font-size: 20px;
 }
  nav a:hover{
-    text-decoration:solid;
-     color:white;
+
     font-size: 22px;
+    
+   color:gold;
 }
 
 
 .site-title {
-    font-size: 22px;
+    font-size: 50px;
     font-weight: bold;
+}
+.site-title:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+    color:gold;
 }
 
 /* Про нас */
@@ -60,7 +66,10 @@ nav a {
     padding: 40px;
     background: #fff;
 }
-
+.about-text:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+}
 .about-text {
     width: 60%;
 }
@@ -85,13 +94,13 @@ nav a {
 
 .products {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
     flex-wrap: wrap;
 }
 
 .product {
-    width: 180px;
+    width: 200px;
     text-align: center;
 }
 
@@ -185,7 +194,18 @@ footer {
     justify-content: space-around;
     background-image: linear-gradient(#FFB291,#996B57);
 }
-
+.text{
+    background-color: #cb333b;
+    width: 100px;
+    padding: 15px;
+    border-radius: 15px;
+    border:1px solid white;
+    color:white;
+}
+.text:hover{
+    box-shadow: 3px 3px 3px 0 gold;
+    color:gold;
+}
 
 
 
