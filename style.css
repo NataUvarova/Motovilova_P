@@ -32,7 +32,7 @@ nav {
     flex: 1;
     text-align: center;
     justify-content:space-between;
-    width:50%;
+    width:65%;
 }
 
 nav a {
@@ -40,11 +40,11 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: initial;
-    font-size: 20px;
+    font-size: 22px;
 }
  nav a:hover{
 
-    font-size: 22px;
+    font-size: 24px;
     
    color:gold;
 }
